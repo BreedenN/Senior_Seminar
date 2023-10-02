@@ -2,7 +2,7 @@
 
 <H2>Use Cases</H2>
 
-<div>1.0 Use Case Intro
+<div><h3>1.0 Use Case Intro</h3>
   
 Actor: Player
 
@@ -14,7 +14,7 @@ Typical course of events
 3. Ask player how many players there are
 4. If there are any available spots, ask how many bots player would like present\\
 
-2.0 Generate game
+<h3>2.0 Generate game</h3>
 
 Actor: Player
 
@@ -24,7 +24,7 @@ Typical course of events
 1. Board will first be generated (Will be comprised of many smaller pieces that are then set next to eachother to generate an interactable board)
 2. Player/bot pieces will then be generated and placed on their sides
 
-3.0 Player order is determined
+<h3>3.0 Player order is determined</h3>
 
 Actor: Player
 
@@ -36,7 +36,7 @@ Typical course of events
 3. Then third
 4. Then fourth
 
-3.1
+<h3>3.1</h3>
 Alternate course of events
 1. Player selects for a random order to be generated
 2. First is randomly determined
@@ -44,7 +44,7 @@ Alternate course of events
 4. Then third
 5. Then fourth
 
-4.0 Game begins
+<h3>4.0 Game begins</h3>
 
 Actor: Player/Bot
 
@@ -54,12 +54,12 @@ Typical course of events
 1. Player determines what direction they want to move, or if they want to place a wall
 2. Once that action is choosen, it is then represented on the board
 
-4.1
+<h3>4.1</h3>
 Alternate course of events
 1. If bot is choosen to go first, algorythm will be run to determine what the best option is
 2. This will then determine if it wants to place a wall, or move first
 
-5.0 Game is played
+<h3>5.0 Game is played</h3>
 
 Actor: Players/Bots
 
@@ -69,11 +69,12 @@ Typical course of events
 1. Turn order is followed
 2. Next player/bot chooses to move
 
+<h3>5.1</h3>
 Alternate course of events
 1. Turn order is followed
 2. Next player/bot places a wall
 
-6.0 Game is finished
+<h3>6.0 Game is finished</h3>
 
 Actor: Players/Bots
 
